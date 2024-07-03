@@ -13,9 +13,3 @@ body {
   padding: 0;
 }
 
-.capas{
-  padding: 130px 8%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}

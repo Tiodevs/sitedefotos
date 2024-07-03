@@ -1,5 +1,7 @@
+// Rotas
 import RoutesApp from './routes'
 
+// CSS
 import './App.css'
 
 function App() {
