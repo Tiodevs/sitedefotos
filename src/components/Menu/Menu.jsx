@@ -39,7 +39,7 @@ export function Menu() {
                     <Link to="/sobre">Sobre</Link>
                 </ul>
 
-                <img src={logo} alt='Logo Header' />
+                <img src={logo} alt='Logo Header'/>
 
                 <ul>
                     <a href='https://www.instagram.com/somente_ofelipe/' target='_blank'>
@@ -60,8 +60,8 @@ export function Menu() {
             </div>
 
             <ul className={menuMobi}>
-                <Link to="/">Home</Link>
-                <Link to="/sobre">Sobre</Link>
+                <Link to="/" onClick={handleIsActive}>Home</Link>
+                <Link to="/sobre" onClick={handleIsActive}>Sobre</Link>
             </ul>
         </nav>
 
