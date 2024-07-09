@@ -6,6 +6,8 @@ import Capa05 from './assets/Capas/Capa5.png'
 import Capa06 from './assets/Capas/Capa6.png'
 import Capa07 from './assets/Capas/Capa7.png'
 import Capa08 from './assets/Capas/Capa8.png'
+import Capa09 from './assets/Capas/Capa9.png'
+import Capa10 from './assets/Capas/Capa10.png'
 
 // Album 01
 import Album0101 from './assets/Ensaio01/01.jpg'
@@ -95,7 +97,7 @@ import Album0709 from './assets/Ensaio07/09.jpg'
 import Album0710 from './assets/Ensaio07/10.jpg'
 import Album0711 from './assets/Ensaio07/11.jpg'
 
-// Album 09
+// Album 08
 import Album0801 from './assets/Ensaio08/01.jpg'
 import Album0802 from './assets/Ensaio08/02.jpg'
 import Album0803 from './assets/Ensaio08/03.jpg'
@@ -111,6 +113,34 @@ import Album0812 from './assets/Ensaio08/12.jpg'
 import Album0813 from './assets/Ensaio08/13.jpg'
 import Album0814 from './assets/Ensaio08/14.jpg'
 import Album0815 from './assets/Ensaio08/15.jpg'
+
+// Album 09
+import Album0901 from './assets/Ensaio09/01.jpg'
+import Album0902 from './assets/Ensaio09/02.jpg'
+import Album0903 from './assets/Ensaio09/03.jpg'
+import Album0904 from './assets/Ensaio09/04.jpg'
+import Album0905 from './assets/Ensaio09/05.jpg'
+import Album0906 from './assets/Ensaio09/06.jpg'
+import Album0907 from './assets/Ensaio09/07.jpg'
+import Album0908 from './assets/Ensaio09/08.jpg'
+import Album0909 from './assets/Ensaio09/09.jpg'
+
+// Album 01
+import Album1001 from './assets/Ensaio10/01.jpg'
+import Album1002 from './assets/Ensaio10/02.jpg'
+import Album1003 from './assets/Ensaio10/03.jpg'
+import Album1004 from './assets/Ensaio10/04.jpg'
+import Album1005 from './assets/Ensaio10/05.jpg'
+import Album1006 from './assets/Ensaio10/06.jpg'
+import Album1007 from './assets/Ensaio10/07.jpg'
+import Album1008 from './assets/Ensaio10/08.jpg'
+import Album1009 from './assets/Ensaio10/09.jpg'
+import Album1010 from './assets/Ensaio10/10.jpg'
+import Album1011 from './assets/Ensaio10/11.jpg'
+import Album1012 from './assets/Ensaio10/12.jpg'
+import Album1013 from './assets/Ensaio10/13.jpg'
+import Album1014 from './assets/Ensaio10/14.jpg'
+import Album1015 from './assets/Ensaio10/15.jpg'
 
 export const DBfotos = [
     {
@@ -183,6 +213,24 @@ export const DBfotos = [
         subTitle: "Fotos tiradas no templo de curitiba com toda a familia",
         album: [
             Album0801, Album0802, Album0803, Album0804, Album0805, Album0806, Album0807, Album0808, Album0809, Album0810, Album0811, Album0812, Album0813, Album0814, Album0815
+        ]
+    },
+    {
+        id: 9,
+        foto: Capa09,
+        title: "Pedido de casamento",
+        subTitle: "Fotos tiradas no templo de curitiba de um pedido de casamento",
+        album: [
+            Album0901, Album0902, Album0903, Album0904, Album0905, Album0906, Album0907, Album0908, Album0909
+        ]
+    },
+    {
+        id: 10,
+        foto: Capa10,
+        title: "Ensaio de casal",
+        subTitle: "Fotos tiradas no templo de curitiba e no museu",
+        album: [
+            Album1001, Album1002, Album1003, Album1004, Album1005, Album1006, Album1007, Album1008, Album1009, Album1010, Album1011, Album1012, Album1013, Album1014, Album1015
         ]
     }
 ];
