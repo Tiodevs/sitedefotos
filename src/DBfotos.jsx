@@ -16,9 +16,8 @@ import Album0109 from './assets/Ensaio01/09.jpg'
 import Album0110 from './assets/Ensaio01/10.jpg'
 import Album0111 from './assets/Ensaio01/11.jpg'
 
-// Album 01
+// Album 02
 import Album0201 from './assets/Ensaio02/01.jpg'
-import Album0202 from './assets/Ensaio02/02.jpg'
 import Album0203 from './assets/Ensaio02/03.jpg'
 import Album0204 from './assets/Ensaio02/04.jpg'
 import Album0206 from './assets/Ensaio02/06.jpg'
@@ -27,6 +26,12 @@ import Album0208 from './assets/Ensaio02/08.jpg'
 import Album0209 from './assets/Ensaio02/09.jpg'
 import Album0210 from './assets/Ensaio02/10.jpg'
 import Album0211 from './assets/Ensaio02/11.jpg'
+
+// Album 03
+import Album0301 from './assets/Ensaio03/01.jpg'
+import Album0302 from './assets/Ensaio03/02.jpg'
+import Album0303 from './assets/Ensaio03/03.jpg'
+import Album0304 from './assets/Ensaio03/04.jpg'
 
 export const DBfotos = [
     {
@@ -44,25 +49,16 @@ export const DBfotos = [
         title: "Pré-Wedding",
         subTitle: "Fotos feitas no parque Tanguá e no Templo de Curitiba, registrado em um final de tarde.",
         album: [
-            Album0204, Album0206, Album0207, Album0208, Album0209, Album0210, Album0211,Album0201, Album0202, Album0203
+            Album0204, Album0206, Album0207, Album0208, Album0209, Album0210, Album0211,Album0201, Album0203
         ]
     },
     {
         id: 3,
-        foto: Capa04,
-        title: "Ensaio de casal",
-        subTitle: "Fotos tiradas no templo de Curitiba",
-        album: [
-            Capa04, Capa02,Capa04,Capa04,Capa04,Capa04,
-        ]
-    },
-    {
-        id: 4,
         foto: Capa03,
-        title: "Ensaio individual",
-        subTitle: "*",
+        title: "Ensaio das sisters",
+        subTitle: "Fotos tiradas no templo das sistes da missão Curitiba",
         album: [
-            Capa03, Capa03, Capa03, Capa03, Capa03,
+            Album0301, Album0302, Album0303, Album0304
         ]
     }
 ];
