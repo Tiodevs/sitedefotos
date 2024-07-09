@@ -16,6 +16,18 @@ import Album0109 from './assets/Ensaio01/09.jpg'
 import Album0110 from './assets/Ensaio01/10.jpg'
 import Album0111 from './assets/Ensaio01/11.jpg'
 
+// Album 01
+import Album0201 from './assets/Ensaio02/01.jpg'
+import Album0202 from './assets/Ensaio02/02.jpg'
+import Album0203 from './assets/Ensaio02/03.jpg'
+import Album0204 from './assets/Ensaio02/04.jpg'
+import Album0206 from './assets/Ensaio02/06.jpg'
+import Album0207 from './assets/Ensaio02/07.jpg'
+import Album0208 from './assets/Ensaio02/08.jpg'
+import Album0209 from './assets/Ensaio02/09.jpg'
+import Album0210 from './assets/Ensaio02/10.jpg'
+import Album0211 from './assets/Ensaio02/11.jpg'
+
 export const DBfotos = [
     {
         id: 1,
@@ -32,7 +44,7 @@ export const DBfotos = [
         title: "Pré-Wedding",
         subTitle: "Fotos feitas no parque Tanguá e no Templo de Curitiba, registrado em um final de tarde.",
         album: [
-            Capa02, Capa02, Capa02, Capa02, Capa02
+            Album0204, Album0206, Album0207, Album0208, Album0209, Album0210, Album0211,Album0201, Album0202, Album0203
         ]
     },
     {
