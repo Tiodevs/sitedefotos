@@ -4,6 +4,8 @@ import Capa03 from './assets/Capas/Capa3.jpg'
 import Capa04 from './assets/Capas/Capa4.png'
 import Capa05 from './assets/Capas/Capa5.png'
 import Capa06 from './assets/Capas/Capa6.png'
+import Capa07 from './assets/Capas/Capa7.png'
+import Capa08 from './assets/Capas/Capa8.png'
 
 // Album 01
 import Album0101 from './assets/Ensaio01/01.jpg'
@@ -80,6 +82,36 @@ import Album0607 from './assets/Ensaio06/07.jpg'
 import Album0608 from './assets/Ensaio06/08.jpg'
 import Album0609 from './assets/Ensaio06/09.jpg'
 
+// Album 07
+import Album0701 from './assets/Ensaio07/01.jpg'
+import Album0702 from './assets/Ensaio07/02.jpg'
+import Album0703 from './assets/Ensaio07/03.jpg'
+import Album0704 from './assets/Ensaio07/04.jpg'
+import Album0705 from './assets/Ensaio07/05.jpg'
+import Album0706 from './assets/Ensaio07/06.jpg'
+import Album0707 from './assets/Ensaio07/07.jpg'
+import Album0708 from './assets/Ensaio07/08.jpg'
+import Album0709 from './assets/Ensaio07/09.jpg'
+import Album0710 from './assets/Ensaio07/10.jpg'
+import Album0711 from './assets/Ensaio07/11.jpg'
+
+// Album 09
+import Album0801 from './assets/Ensaio08/01.jpg'
+import Album0802 from './assets/Ensaio08/02.jpg'
+import Album0803 from './assets/Ensaio08/03.jpg'
+import Album0804 from './assets/Ensaio08/04.jpg'
+import Album0805 from './assets/Ensaio08/05.jpg'
+import Album0806 from './assets/Ensaio08/06.jpg'
+import Album0807 from './assets/Ensaio08/07.jpg'
+import Album0808 from './assets/Ensaio08/08.jpg'
+import Album0809 from './assets/Ensaio08/09.jpg'
+import Album0810 from './assets/Ensaio08/10.jpg'
+import Album0811 from './assets/Ensaio08/11.jpg'
+import Album0812 from './assets/Ensaio08/12.jpg'
+import Album0813 from './assets/Ensaio08/13.jpg'
+import Album0814 from './assets/Ensaio08/14.jpg'
+import Album0815 from './assets/Ensaio08/15.jpg'
+
 export const DBfotos = [
     {
         id: 1,
@@ -129,10 +161,28 @@ export const DBfotos = [
     {
         id: 6,
         foto: Capa06,
-        title: "Evento de acasamento",
-        subTitle: "Fotos tiradas no igreja, um evento lindo e cheio de detalhes delicados",
+        title: "Pré-missão",
+        subTitle: "Fotos tiradas no templo de uma jovem que acabou de receber o seu chamado",
         album: [
             Album0601, Album0602, Album0603, Album0604, Album0605, Album0606, Album0607, Album0608, Album0609
+        ]
+    },
+    {
+        id: 7,
+        foto: Capa07,
+        title: "Ensaio de familia",
+        subTitle: "Fotos tiradas no templo de curitiba com toda a familia",
+        album: [
+            Album0701, Album0702, Album0703, Album0704, Album0705, Album0706, Album0707, Album0708, Album0709, Album0710, Album0711
+        ]
+    },
+    {
+        id: 8,
+        foto: Capa08,
+        title: "Ensaio de familia",
+        subTitle: "Fotos tiradas no templo de curitiba com toda a familia",
+        album: [
+            Album0801, Album0802, Album0803, Album0804, Album0805, Album0806, Album0807, Album0808, Album0809, Album0810, Album0811, Album0812, Album0813, Album0814, Album0815
         ]
     }
 ];
