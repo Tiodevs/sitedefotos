@@ -4,10 +4,12 @@ import Capa03 from './assets/Capas/Capa3.jpg'
 import Capa04 from './assets/Capas/Capa4.jpg'
 import Capa05 from './assets/Capas/Capa5.jpg'
 
+// https://drive.google.com/thumbnail?id=1W_k_njlvPV9KSkNEarpsm5_HiR84AWUE
+
 export const DBfotos = [
     {
         id: 1,
-        foto: 'https://drive.google.com/thumbnail?id=1W_k_njlvPV9KSkNEarpsm5_HiR84AWUE',
+        foto: Capa01,
         title: "Pré-Missão",
         subTitle: "Fotos feitas no Templo de Curitiba para registrar esse momento que é tão especial para o jovem e a família.",
         album: [
