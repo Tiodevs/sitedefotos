@@ -1,0 +1,39 @@
+.foto{
+    width: 500px;
+    max-width: 100%;
+}
+
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.titulo{
+    color: #01DFB2;
+    margin-top: 20px;
+}
+
+.subTitulo{
+    color: #ffffffa2;
+    margin-top: 10px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.btn{
+    margin-top: 40px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #0F1724;
+    font-weight: bold;
+    color: #FFFF;
+    border-radius: 5px;
+    border: solid 1px #01DFB2;
+    margin-bottom: 10vh;
+}

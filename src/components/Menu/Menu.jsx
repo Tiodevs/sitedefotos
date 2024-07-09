@@ -42,7 +42,7 @@ export function Menu() {
                 <img src={logo} alt='Logo Header'/>
 
                 <ul>
-                    <a href='https://www.instagram.com/somente_ofelipe/' target='_blank'>
+                    <a href='https://wa.me/+5541987208843' target='_blank'>
                         <img src={LogoWhatsApp} className={style.menuicon} />
                     </a>
                     <a href='https://www.instagram.com/somente_ofelipe/' target='_blank'>
