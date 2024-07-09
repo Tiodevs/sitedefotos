@@ -13,7 +13,7 @@ import { Download, Fullscreen, Thumbnails, Zoom } from 'yet-another-react-lightb
 
 export function Album() {
 
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = React.useState(true);
 
     const { id } = useParams()
     const item = id - 1
@@ -44,7 +44,7 @@ export function Album() {
             <p className={style.subTitulo}>{subTitle}</p>
 
             <button className={style.btn} type="button" onClick={() => setOpen(true)}>
-                Ver fotos
+                Ver Álbum
             </button>
         </div>
 
